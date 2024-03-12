@@ -1,0 +1,17 @@
+﻿@inherits BaseInput<bool>
+
+<div class="flex items-start mb-4 @CssClasses">
+    <div class="flex items-center h-5">
+        <input id="@Id" name="@Id" type="checkbox" checked="@(Value)" @oninput="HandleInput" class="focus:ring-4 focus:ring-offset-0 focus:ring-primary-light h-4 w-4 rounded @Border_Background_Color_SizeStyling" />
+    </div>
+</div>
+@if(CanValidate) 
+{ 
+    <div class="text-danger text-sm mb-3">
+        <ValidationMessage For="@ValidationFor" />
+    </div>
+}
+
+@code {
+    
+}

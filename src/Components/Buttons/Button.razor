@@ -1,0 +1,22 @@
+﻿@inherits BaseComponent﻿
+
+<button 
+    @onclick="OnClick" 
+    @attributes="@InputAttributes"
+    class="w-full rounded-md @CssClasses @Border_Background_Color_SizeStyling focus:outline-none">
+        @ChildContent
+</button>
+
+@code{
+    /// <summary>
+    /// Click event for the button (optional)
+    /// </summary>
+    [Parameter]
+    public EventCallback OnClick { get; set; }
+
+    /// <summary>
+    /// Child content to render inside the button.
+    /// </summary>
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+}

@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Components", "Components\Components.csproj", "{7E1853DF-554B-4C3E-916C-BF4971A3B48A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Showcase", "Showcase\Showcase.csproj", "{BDE75BF3-9DBA-436A-8A7D-A7E2DD616B89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Showcase", "Showcase\Showcase.csproj", "{BDE75BF3-9DBA-436A-8A7D-A7E2DD616B89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
